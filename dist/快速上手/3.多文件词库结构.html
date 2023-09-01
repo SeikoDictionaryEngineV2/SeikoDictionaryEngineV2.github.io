@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>多文件词库结构 | Seiko词库引擎</title>
+    <meta name="generator" content="VuePress 1.9.10">
+    
+    <meta name="description" content="语法简洁，函数易用的跨平台词库引擎">
+    
+    <link rel="preload" href="/dist/assets/css/0.styles.1b072da3.css" as="style"><link rel="preload" href="/dist/assets/js/app.682e621c.js" as="script"><link rel="preload" href="/dist/assets/js/2.6bfae921.js" as="script"><link rel="preload" href="/dist/assets/js/1.4a50f8bd.js" as="script"><link rel="preload" href="/dist/assets/js/26.730e925d.js" as="script"><link rel="prefetch" href="/dist/assets/js/10.5c32a58d.js"><link rel="prefetch" href="/dist/assets/js/11.72ae73cf.js"><link rel="prefetch" href="/dist/assets/js/12.16ac6487.js"><link rel="prefetch" href="/dist/assets/js/13.5eccdd1e.js"><link rel="prefetch" href="/dist/assets/js/14.3eb9dfa2.js"><link rel="prefetch" href="/dist/assets/js/15.df39777f.js"><link rel="prefetch" href="/dist/assets/js/16.fcff4e7b.js"><link rel="prefetch" href="/dist/assets/js/17.13f9f737.js"><link rel="prefetch" href="/dist/assets/js/18.6d3b94c1.js"><link rel="prefetch" href="/dist/assets/js/19.fd36e329.js"><link rel="prefetch" href="/dist/assets/js/20.ac1cf63f.js"><link rel="prefetch" href="/dist/assets/js/21.e6ea6789.js"><link rel="prefetch" href="/dist/assets/js/22.26023d67.js"><link rel="prefetch" href="/dist/assets/js/23.2ecd0018.js"><link rel="prefetch" href="/dist/assets/js/24.56988edd.js"><link rel="prefetch" href="/dist/assets/js/25.bc388795.js"><link rel="prefetch" href="/dist/assets/js/27.81a70590.js"><link rel="prefetch" href="/dist/assets/js/28.712041f0.js"><link rel="prefetch" href="/dist/assets/js/29.8d94563d.js"><link rel="prefetch" href="/dist/assets/js/3.fb24add6.js"><link rel="prefetch" href="/dist/assets/js/30.527bf613.js"><link rel="prefetch" href="/dist/assets/js/31.96e3f93d.js"><link rel="prefetch" href="/dist/assets/js/32.cc767f83.js"><link rel="prefetch" href="/dist/assets/js/33.3b7eb6a8.js"><link rel="prefetch" href="/dist/assets/js/4.84e1e480.js"><link rel="prefetch" href="/dist/assets/js/5.d1364975.js"><link rel="prefetch" href="/dist/assets/js/6.95c348a6.js"><link rel="prefetch" href="/dist/assets/js/7.c5b5bad4.js"><link rel="prefetch" href="/dist/assets/js/vendors~docsearch.5e19b665.js">
+    <link rel="stylesheet" href="/dist/assets/css/0.styles.1b072da3.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/dist/" class="home-link router-link-active"><!----> <span class="site-name">Seiko词库引擎</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="快速上手" class="dropdown-title"><span class="title">快速上手</span> <span class="arrow down"></span></button> <button type="button" aria-label="快速上手" class="mobile-dropdown-title"><span class="title">快速上手</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/dist/快速上手/" class="nav-link">
+  快速上手
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="进阶教程" class="dropdown-title"><span class="title">进阶教程</span> <span class="arrow down"></span></button> <button type="button" aria-label="进阶教程" class="mobile-dropdown-title"><span class="title">进阶教程</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/dist/进阶教程/" class="nav-link">
+  进阶教程
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="快速上手" class="dropdown-title"><span class="title">快速上手</span> <span class="arrow down"></span></button> <button type="button" aria-label="快速上手" class="mobile-dropdown-title"><span class="title">快速上手</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/dist/快速上手/" class="nav-link">
+  快速上手
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="进阶教程" class="dropdown-title"><span class="title">进阶教程</span> <span class="arrow down"></span></button> <button type="button" aria-label="进阶教程" class="mobile-dropdown-title"><span class="title">进阶教程</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/dist/进阶教程/" class="nav-link">
+  进阶教程
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>快速上手</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/dist/快速上手/0.简介.html" class="sidebar-link">简介</a></li><li><a href="/dist/快速上手/1.安装和第一个Seiko词库.html" class="sidebar-link">安装和demo</a></li><li><a href="/dist/快速上手/2.单文件词库结构.html" class="sidebar-link">单文件词库结构</a></li><li><a href="/dist/快速上手/3.多文件词库结构.html" class="active sidebar-link">多文件词库结构</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/dist/快速上手/3.多文件词库结构.html#一-单文件词库的不足" class="sidebar-link">一. 单文件词库的不足</a></li><li class="sidebar-sub-header"><a href="/dist/快速上手/3.多文件词库结构.html#二-多文件词库的结构" class="sidebar-link">二. 多文件词库的结构</a></li><li class="sidebar-sub-header"><a href="/dist/快速上手/3.多文件词库结构.html#三-结构创建步骤" class="sidebar-link">三. 结构创建步骤：</a></li></ul></li><li><a href="/dist/快速上手/4.词库信息头.html" class="sidebar-link">词库信息头</a></li><li><a href="/dist/快速上手/5.变量及其赋值.html" class="sidebar-link">变量及其赋值</a></li><li><a href="/dist/快速上手/6.函数.html" class="sidebar-link">函数</a></li><li><a href="/dist/快速上手/7.指令和事件筛选器.html" class="sidebar-link">指令和事件筛选器</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="多文件词库结构"><a href="#多文件词库结构" class="header-anchor">#</a> 多文件词库结构</h1> <h2 id="一-单文件词库的不足"><a href="#一-单文件词库的不足" class="header-anchor">#</a> 一. 单文件词库的不足</h2> <p>随着词库指令的增多，词库的体积会显得越来越大。</p> <p>混乱的词库可能也会导致莫名其妙的bug。</p> <p>因此SeikoDIC引入了<code>多词库</code>的概念</p> <p>从而实现不同词库实现不同功能，让你的词库更加整洁漂亮。</p> <h2 id="二-多文件词库的结构"><a href="#二-多文件词库的结构" class="header-anchor">#</a> 二. 多文件词库的结构</h2> <div class="language-text line-numbers-mode"><pre class="language-text"><code>示例词库
+|   index.txt
+|   methodA.txt
+|   methodB.txt
+|
+\---func
+        函数1.jar
+        函数2.jar
+        函数3.jar
+        函数4.jar
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><h2 id="三-结构创建步骤"><a href="#三-结构创建步骤" class="header-anchor">#</a> 三. 结构创建步骤：</h2> <ol><li><p>创建文件夹:<code>词库名</code>。</p></li> <li><p>创建<code>index.txt</code>。</p> <div class="custom-block danger"><p class="custom-block-title">DANGER</p> <p>需要注意: 使用多文件词库后，你的主词库路径必须是<code>index.txt</code>，不然词库引擎将会无法加载。</p></div></li> <li><p>若您的词库依赖一些特定的非平台实现的自定义方法，请将方法的jar(Android为dex/apk)文件，挪到<code>func</code>文件夹中。</p></li> <li><p>自此，结构创建完成。打开index.txt，尽情编辑你的词库文件。</p></li></ol></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/dist/快速上手/2.单文件词库结构.html" class="prev">
+        单文件词库结构
+      </a></span> <span class="next"><a href="/dist/快速上手/4.词库信息头.html">
+        词库信息头
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/dist/assets/js/app.682e621c.js" defer></script><script src="/dist/assets/js/2.6bfae921.js" defer></script><script src="/dist/assets/js/1.4a50f8bd.js" defer></script><script src="/dist/assets/js/26.730e925d.js" defer></script>
+  </body>
+</html>
